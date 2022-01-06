@@ -15,7 +15,7 @@ function createNewTask () {
      newCheckBox.class = "checkbox";
      newSpan.class = "task"
       .innerHTML = newTask;
-     newButton.class = "delete-btn";
+     newButton.class = "delete-btn"
       .innerHTML = "Close";
       
       newLi.appendChild(newCheckBox);

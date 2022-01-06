@@ -4,3 +4,7 @@ body {
   font-family: 'Caveat', cursive;
   font-family: 'Permanent Marker', cursive;
 }
+
+[type="checkbox"]:checked + .task {
+  text-decoration: line-through;
+}

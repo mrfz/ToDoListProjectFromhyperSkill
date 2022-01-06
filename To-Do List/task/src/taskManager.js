@@ -18,9 +18,9 @@ function createNewTask () {
      newButton.class = "delete-btn"
       .innerHTML = "Close";
       
-      newLi.appendChild(newCheckBox);
-      newLi.appendChild(newSpan);
-      newLi.appendChild(newButton);
+      newLi.appendChild(newCheckBox)
+      .appendChild(newSpan)
+      .appendChild(newButton);
       taskList.appendChild(newLi);
   }
 }

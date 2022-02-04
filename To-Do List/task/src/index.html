@@ -5,26 +5,12 @@
     <title>To-Do List</title>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
-<body>
+<body onload="getTasksFromStorage()">
   <h1>To-Do List</h1>
   <input type="text" id="input-task">
   <button id="add-task-button" title="Add task">Add task</button>
   <ul id="task-list">
-      <li>
-          <input type="checkbox">
-          <span class="task">Task1</span>
-          <button class="delete-btn" onclick="deleteTask(this);">Close</button>
-      </li>
-      <li>
-          <input type="checkbox">
-          <span class="task">Task2</span>
-          <button class="delete-btn" onclick="deleteTask(this);">Close</button>
-      </li>
-      <li>
-          <input type="checkbox">
-          <span class="task">Task3</span>
-          <button class="delete-btn" onclick="deleteTask(this);">Close</button>
-      </li>
+
   </ul>
   <script src="assets/taskManager.js"></script>
 </body>
